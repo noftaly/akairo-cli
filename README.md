@@ -31,7 +31,13 @@ If your bot is written in TypeScript, then you can also add the `--ts` flag to c
 
 ## Screenshots
 
-🚧 WIP
+Screenshot of the file selector, to choose the path:
+
+![File Selector Screenshot](./screenshots/FileSelectorScreenshot.png)
+
+Screenshot of the all the prompts to create a command:
+
+![Final Command Creation Screenshot](./screenshots/FinalCommandScreenshot.png)
 
 
 ## TO-DO

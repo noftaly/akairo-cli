@@ -1,0 +1,41 @@
+{
+  "name": "akairo-cli",
+  "version": "1.0.0",
+  "description": "A Node.js CLI to generate templates for the discord-akairo framework.",
+  "main": "./index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "bin": {
+    "akairo": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "akairo",
+    "discord-akairo",
+    "discord.js",
+    "discordjs",
+    "noftaly",
+    "generate",
+    "template"
+  ],
+  "author": "Elliot 'noftaly' Maisl",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "inquirer-file-tree-selection-prompt": "^1.0.7",
+    "meow": "^8.1.0",
+    "update-notifier": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-noftalint": "^1.16.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-unicorn": "^24.0.0"
+  }
+}
